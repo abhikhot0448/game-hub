@@ -5,7 +5,7 @@ import ColorModeSwith from "./ColorModeSwith";
 const NavBar = () => {
   return (
     <HStack justifyContent="space-between" padding="10px">
-      <Image src={logo} width={100} boxSize="60px" borderRadius="25px" />
+      <Image src={logo} width={100} boxSize="60px" borderRadius="15px" />
       <ColorModeSwith />
     </HStack>
   );
